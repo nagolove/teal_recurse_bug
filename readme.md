@@ -1,11 +1,16 @@
 Ошибка в сборке проекта lua-teal -> sri
 
+```
 tl --version
 0.13.2+dev
+```
 
+```
 git log
 cfb009880bff80ed5f35eaa4c0f5d5fb8bb21e40
+```
 
+```
 stack traceback:
 	/home/nagolove/projects/tl//tl.lua:6098: in local 'cmp'
 	/home/nagolove/projects/tl//tl.lua:5832: in upvalue 'arg_check'
@@ -31,5 +36,4 @@ stack traceback:
 	/home/nagolove/projects/tl/tl:710: in field '?'
 	/home/nagolove/projects/tl/tl:1332: in main chunk
 	[C]: in ?
-
-
+```
